@@ -11,7 +11,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
+import { defineComponent } from "vue";
 export default defineComponent({
   props: {
     event: {
@@ -19,7 +19,7 @@ export default defineComponent({
       required: true
     }
   }
-})
+});
 </script>
 
 <style scoped>
