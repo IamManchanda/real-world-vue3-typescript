@@ -16,7 +16,7 @@ export default defineComponent({
   props: ["id"],
   data() {
     return {
-      event: {} as EventItem
+      event: {} as EventItem,
     };
   },
   created() {
@@ -27,6 +27,6 @@ export default defineComponent({
       .catch(error => {
         console.log(error);
       });
-  }
+  },
 });
 </script>

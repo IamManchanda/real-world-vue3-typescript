@@ -16,9 +16,9 @@ export default defineComponent({
   props: {
     event: {
       type: Object,
-      required: true
-    }
-  }
+      required: true,
+    },
+  },
 });
 </script>
 

@@ -16,11 +16,11 @@ import EventService from "../services/EventService";
 export default defineComponent({
   name: "EventList",
   components: {
-    EventCard
+    EventCard,
   },
   data() {
     return {
-      events: [] as EventItem[]
+      events: [] as EventItem[],
     };
   },
   created() {
@@ -31,7 +31,7 @@ export default defineComponent({
       .catch(error => {
         console.log(error);
       });
-  }
+  },
 });
 </script>
 
