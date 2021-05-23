@@ -13,7 +13,12 @@ import { EventItem } from "../types";
 import EventService from "../services/EventService";
 
 export default defineComponent({
-  props: ["id"],
+  props: {
+    id: {
+      type: Number,
+      required: true,
+    },
+  },
   data() {
     return {
       event: {} as EventItem,

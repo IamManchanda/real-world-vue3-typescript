@@ -9,7 +9,6 @@
 import { defineComponent } from "vue";
 // eslint-disable-next-line no-unused-vars
 import { EventItem } from "../types";
-
 import EventCard from "../components/EventCard.vue";
 import EventService from "../services/EventService";
 
